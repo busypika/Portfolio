@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iceland">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hi+Melody">
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header_container">
+                <div class="logo_container">
+                    <img class="header_logo" src="img/Logo.png" alt="Logo">
+                </div><div class="title_container">                   
+                <!-- An inline-block problem here, there must be no space between two elements  -->
+                    <h1 class="header_title">Chris Chen</h1>
+                    <h4 class="header_subtitle">Front-End Portfolio</h4>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- container, display = flex -->
+            <div class="content">  
+
+                <div class="laptop_container">
+                    <picture>
+                        <source media="(max-width: 849px)" srcset="img/Laptop-small_1x.jpg 1x, img/Laptop-small_2x.jpg 2x">
+                        <img class="laptop" src="img/Laptop-large_1x.jpg" srcset="img/Laptop-large_2x.jpg 2x" alt="Code, Coffee, Computer">
+                    </picture>
+                </div>
+
+                <section class="introduce_container">
+                    <!-- Normal version for wider than 850px -->
+                    <p  class="introduce">Hi! My name is Chris, I've just started my nanodegree of Full Stack Web Developer in Udacity recently. Welcome to my portfolio and I hope you'll enjoy it!
+                    </p>
+                    <!-- Middle version for wider than 680px but smaller than 850px -->
+                    <p  class="middle_introduce">
+                        Hi! My name is Chris,<br>
+                        I've just started my nanodegree of<br>
+                        Full Stack Web Developer<br>in Udacity recently.<br>Welcome to my portfolio and<br>I hope you'll enjoy it!
+                    </p>
+                    <!-- Smaller version for less than 680px -->
+                    <p  class="small_introduce">
+                        Hi ! My name is Chris ,<br>
+                        I've just started my nanodegree of<br>
+                        Full Stack Web Developer<br>
+                        in Udacity recently .<br>
+                        Welcome to my portfolio and<br>
+                        I hope you will enjoy it !
+                    </p>
+                </section>    
+                
+                <section class="featured_works">
+                
+                    <div class="subtitle_container">
+                        <h3 id="main_subtitle">Featured Work</h3>
+                    </div>
+                    <!-- An inline-block problem here, there must be no space between two elements -->
+                    <figure class="figure_container">
+                        <picture>
+                            <source media="(max-width: 679px)" srcset="img/Movie-large_1x.jpg 1x, img/Movie-large_2x.jpg 2x">
+                            <img class="works_pictures" src="img/Movie-small_1x.jpg" srcset="img/Movie-small_2x.jpg 2x" alt="A Movie Trailer Website made by Python">
+                        </picture>
+                        <figcaption>Movie Trailer Website</figcaption>
+                        <a class="fontawesome-github gitlink" href="https://github.com/busypika/Movie-Trailer-Website">https://github.com/busypika/Movie-Trailer-Website</a>
+                        <a class="fontawesome-github hide_gitlink" href="https://github.com/busypika/Movie-Trailer-Website">View Source</a>
+                    </figure><figure class="figure_container">
+                        <picture>
+                            <source media="(max-width: 679px)" srcset="img/RWD-large_1x.jpg 1x, img/RWD-large_2x.jpg 2x">
+                            <img class="works_pictures" src="img/RWD-small_1x.jpg" srcset="img/RWD-small_2x.jpg 2x" alt="An Example of Responsive Web Design">
+                        </picture>
+                        <figcaption>Responsive Web Design</figcaption>
+                        <a class="fontawesome-github gitlink" href="https://github.com/udacity/responsive-web-design">https://github.com/udacity/responsive-web-design</a>
+                        <a class="fontawesome-github hide_gitlink" href="https://github.com/udacity/responsive-web-design">View Source</a>
+                    </figure><figure class="figure_container">
+                        <picture>
+                            <source media="(max-width: 679px)" srcset="img/RI-large_1x.jpg 1x, img/RI-large_2x.jpg 2x">
+                            <img class="works_pictures" src="img/RI-small_1x.jpg" srcset="img/RI-small_2x.jpg 2x" alt="Full Resposive Images Website">
+                        </picture>
+                        <figcaption>Resposive Images</figcaption>
+                        <a class="fontawesome-github gitlink" href="https://github.com/udacity/responsive-images">https://github.com/udacity/responsive-images</a>
+                        <a class="fontawesome-github hide_gitlink" href="https://github.com/udacity/responsive-images">View Source</a>
+                    </figure>
+                
+                </section>    
+            </div>
+        </main>
+
+        <footer>
+            <ul class="footer_list">
+                <!-- Normal version for viewport wider than 680px -->
+                <li class="large_social">
+                    <a class="fontawesome-facebook footer_link" href="http://www.facebook.com/sharer.php?u=...">Share on Facebook</a>
+                    <!-- href haven't been modified -->
+                </li>
+                <li class="large_social">
+                    <a class="fontawesome-envelope footer_link" href="mailto:busypika@gmail.com">Contact Me</a>
+                </li>
+                <li class="large_social">
+                    <a class="fontawesome-github-alt footer_link" href="#">View Source on GitHub</a> 
+                    <!-- href haven't been modified -->
+                </li>
+                <!-- Smaller version for viewport width less than 680px -->
+                <li class="small_social">
+                    <a class="fontawesome-facebook footer_link" href="http://www.facebook.com/sharer.php?u=..."></a>
+                    <!-- href haven't been modified -->
+                </li>
+                <li class="small_social">
+                    <a class="fontawesome-envelope footer_link" href="mailto:busypika@gmail.com"></a>
+                </li>
+                <li class="small_social">
+                    <a class="fontawesome-github-alt footer_link" href="https://github.com/busypika"></a>
+                    <!-- href haven't been modified -->
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,222 @@
+/*-----------
+    common
+ -----------*/
+
+/* Icon Fonts */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome); 
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'fontawesome', sans-serif;
+    display: inline-block;
+    color: black;
+    text-shadow:  3px 3px 3px #aaa;
+    margin: 0 0.7em 0 0;
+    font-size: 1.5em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2vh auto 3vh auto;
+    font-size: 16px;
+    color: #2d3c49;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-family: "Iceland", cursive;
+}
+
+p {
+    font-family: "Hi Melody", cursive;
+}
+
+figure {
+    margin: 0;
+    width: 100%;
+}
+
+/* Fit to container */
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #02b3e4;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+/*-----------
+    header
+ -----------*/
+
+header {
+    border-bottom: 3px solid #7d97ad;
+}
+
+.logo_container {
+    width: 40%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header_logo {
+    height: 70px;
+}
+
+.title_container {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+.header_title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin-right: 0.4em;
+}
+
+.header_subtitle {
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-right: 1em;
+    margin-bottom: 1.0em;
+}
+
+/*----------
+    main
+ -----------*/
+
+main {
+    margin: 1.5em 0 1em 0;
+}
+
+/* flex-box */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* laptop */
+.laptop_container {
+    text-align: center;
+    width: 100%;
+}
+
+.laptop {
+    box-shadow: 12px 10px 26px -8px rgba(0,0,0,0.82);
+}
+
+/* introduce paragraph */
+.introduce_container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px solid #7d97ad;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.introduce {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.middle_introduce {
+    text-align: center;
+    display: none;
+    margin: 0;
+}
+
+.small_introduce {
+    text-align: center;
+    display: none;
+    margin: 0;
+}
+
+/* featured works */
+.featured_works {
+    width: 100%;
+    margin: 0;
+}
+
+/* subtitle */
+.subtitle_container {
+    width: 100%;
+}
+
+#main_subtitle {
+    color: #7d97ad;
+    font-weight: 200;
+    font-size: 2em;
+    margin: 0.4em;
+}
+
+/* figures */
+.figure_container{
+    margin-right: 20px;
+    width: calc((100% - 40px)/3);
+    text-align: center;
+    display: inline-block;
+}
+
+.figure_container:last-of-type {
+    margin-right: 0;
+}
+
+figcaption {
+    color: #2d3c49;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: 0.5em 0 0 0;
+}
+
+.hide_gitlink {
+    display: none;
+}
+
+.works_pictures {
+    width: 100%;
+    height: 200px;
+    box-shadow: 12px 10px 26px -8px rgba(0,0,0,0.82)
+}
+
+/*-------
+  footer
+ -------*/
+
+footer {
+    border-top: 2px solid #7d97ad;
+    text-align: center;
+}
+
+.footer_list {
+    margin: 1em 0 1em 0;
+    padding: 0;
+}
+
+.large_social {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.small_social {
+    display: none;
+}
+
+.footer_link {
+    font-size: 1em;
+}

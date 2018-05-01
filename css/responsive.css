@@ -1,0 +1,253 @@
+/*------------ 
+    0~679px
+ ------------*/
+
+@media screen and (max-width: 679px) {
+    
+    /* header */
+    .header_logo {
+        height: 45px;
+    }
+    
+    .header_title {
+        font-size: 2em;
+        margin-right: 0.5em;
+    }
+    
+    .header_subtitle {
+        font-size: 0.8em;
+        margin-bottom: 0.8em;
+    }
+    
+    /* laptop */
+    .laptop {
+        box-shadow: none;
+    }
+    
+    /* paragraph of introduction */
+    .introduce_container {
+        box-shadow: 0px 0px 26px -5px rgba(0,0,0,0.82);
+        border-bottom: none;
+        width: 80%;
+        margin-top: 1em;
+    }
+    
+    .introduce {
+        display: none;
+    }
+    
+    .small_introduce {
+        display: inline-block;
+        font-size: 1em;
+    }
+    
+    /* featured works */
+    .featured_works {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    }
+    
+    /* subtitle */
+    .subtitle_container {
+        text-align: center;
+    }
+    
+    /* figures */
+    .figure_container {
+        width: auto;
+        margin: 1.2em auto 0em auto;
+        padding-bottom: 0.5em;
+        border-bottom: none;
+        box-shadow: 0px 0px 26px -5px rgba(0,0,0,0.82);
+    }
+    
+    .figure_container:last-of-type {
+        margin-right: auto;
+    }
+    
+    .figure_container:first-of-type {
+        margin-top: 0;
+    }
+    
+    .works_pictures {
+        height: auto;
+        border-bottom: none;
+        box-shadow: none;
+    }
+    
+    figcaption {
+        border-top: 1px solid #7d97ad;
+        margin: 0;
+        padding-top: 0.5em;
+    }
+    
+    .gitlink {
+        display: none;
+    }
+    
+    .hide_gitlink {
+        display: block;
+    }
+    
+    /* footer */
+    .large_social {
+        display: none;
+    }
+    
+    .small_social {
+        display: inline-block;
+        margin: 0 1em;
+    }
+}
+
+/*--------------
+    350~679px
+---------------*/
+
+@media screen and (min-width: 350px) and (max-width: 679px) {
+    /* paragraph of introduction */
+    .small_introduce {
+        font-size: 1.2em;
+    }
+    
+    .gitlink {
+        display: block;
+        font-size: 0.7em;
+    }
+    
+    .hide_gitlink {
+        display: none;
+    }
+}
+
+/*-------------
+    680~849px
+ -------------*/
+
+@media screen and (min-width: 680px) and (max-width: 849px) {   
+    /* header */
+    .header_logo {
+        height: 60px;
+    }
+    
+    .header_subtitle {
+        margin-bottom: 0.8em;
+    }
+    
+    /* main */
+    main {
+        margin-bottom: 1.5em;
+    }
+    
+    /* paragraph of introduction */
+    .introduce_container {
+        width: 40%;
+        order: 1;
+        border-top: 1px solid #7d97ad;   
+        box-shadow: 0px 0px 26px -5px rgba(0,0,0,0.82);
+    }
+    
+    .introduce {
+        display: none;
+    }
+    
+    .middle_introduce {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.3em;
+    }
+    
+    /* laptop */
+    .laptop_container {
+        width: 60%;
+        order: 2;
+    }
+    
+    .laptop {
+        vertical-align: top;
+        box-shadow: none;
+    }
+    
+    /* featured works */
+    .featured_works {
+        order: 3;
+    }
+    
+    /* subtitle */
+    .subtitle_container {
+        text-align: center;
+    }
+    
+    /* figures */
+    .figure_container {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: calc((100% - 60px)/3);
+        box-shadow: 0px 0px 26px -5px rgba(0,0,0,0.82);
+        padding-bottom: 0.5em;
+    }
+    
+    .figure_container:last-of-type {
+        margin-right: 10px;
+    }
+    
+    .gitlink {
+        display: none;
+    }
+    
+    .hide_gitlink {
+        display: block;
+    }
+    
+    .works_pictures {
+        height: 180px;
+        box-shadow: none;
+    }
+    
+    figcaption {
+        border-top: 1px solid #7d97ad;
+        margin: 0;
+        padding-top: 0.5em;
+    }
+}
+   
+/*-------------
+    680~749px
+ -------------*/
+
+@media screen and (min-width: 680px) and (max-width: 749px) {
+    /* paragraph of introduction */
+    .middle_introduce {
+        font-size: 1.2em;
+    }
+    
+    /* figures */
+    figcaption {
+        font-size: 1em;
+    }
+    
+    .works_pictures {
+        height: 160px;
+    }
+}
+
+/*----------
+    850px~
+ ----------*/
+
+@media screen and (min-width: 850px) {
+    /* common */
+    html, body {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* For IE */
+    .content {
+        width: 850px;
+    }
+}
