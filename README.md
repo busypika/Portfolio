@@ -11,8 +11,8 @@ In order to view the website, you might need the followings:
   2. Webbrowser like Chrome, Firefox or Microsoft Edge. IE is not recommended, there are some display issues using IE
   3. Phone, Pad, or a simulator. Or just use DevTools in Chrome to check responsive
 
- Chrome: https://www.google.com.tw/chrome/
- Firefox: https://www.mozilla.org/en-US/firefox/
+Chrome: https://www.google.com.tw/chrome/
+Firefox: https://www.mozilla.org/en-US/firefox/
 
 ## Instructions
 
