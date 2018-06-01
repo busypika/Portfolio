@@ -4,7 +4,7 @@ This project is a portfolio website which replicates a specified design from her
 It's a responsive website and display images, descriptions and links to other projects from the course of udacity nanodegree.
 
 ## Demo
-![image]{https://github.com/busypika/Portfolio/blob/master/Pic/Portfolio.jpg}
+![image](https://github.com/busypika/Portfolio/blob/master/Pic/Portfolio.jpg)
 
 ## Requirements
 
