@@ -6,6 +6,9 @@ It's a responsive website and display images, descriptions and links to other pr
 ## Demo
 ![image](https://github.com/busypika/Portfolio/blob/master/Pic/Portfolio.jpg)
 
+RWD design:
+![image](https://github.com/busypika/Portfolio/blob/master/Pic/Portfolio_mid.jpg)
+
 ## Requirements
 
 In order to view the website, you might need the followings:
